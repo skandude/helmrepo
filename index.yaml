@@ -3,7 +3,7 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-11-16T16:11:00.983227367Z"
+    created: "2021-11-16T16:28:58.362002803Z"
     description: this is my new tesitn application.
     digest: 3c2ce7ae933c9bec0e17bb47deecc1b34b24f07f7c0a135ecb6a547c0291ec11
     name: myapp
@@ -11,4 +11,25 @@ entries:
     urls:
     - myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-16T16:11:00.981415784Z"
+  myapp-new:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2021-11-16T16:28:58.363014942Z"
+    description: this is my new tesitn application of httpd .
+    digest: ecf07b9aa3eeac13482fa8a2bce823f9621695dc2dae65757a4f76ce74fb314e
+    name: myapp-new
+    type: application
+    urls:
+    - myapp-new-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2021-11-16T16:28:58.362476489Z"
+    description: this is my new tesitn application.
+    digest: 647c5f5892c7b1859787b0e209d4458b6b6fe0a4d466c2b77a6e5998e1b16aa6
+    name: myapp-new
+    type: application
+    urls:
+    - myapp-new-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-16T16:28:58.361107296Z"
